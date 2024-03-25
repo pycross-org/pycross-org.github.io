@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: aaed8d0
+_src_path: gh:blakeNaccarato/copier-python
+actions_runner: ubuntu-22.04
+active: true
+github_repo_name: pycross.github.io
+project_description: pycross website.
+project_email: blake.naccarato@gmail.com
+project_name: pycross_github_io
+project_owner_github_username: pycross-org
+project_owner_name: Blake Naccarato
+project_version: 0.0.0
+python_version: '3.11'
+year_of_project_creation: 2024
