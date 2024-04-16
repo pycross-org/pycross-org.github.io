@@ -6,7 +6,7 @@ build-backend = "flit_core.buildapi"
 name = "pycross_github_io_tools"
 version = "0.0.0"
 description = "Tools."
-dependencies = ["cyclopts==2.4.2"]
+dependencies = ["cyclopts==2.6.0"]
 [project.scripts]
 pycross_github_io_tools = "pycross_github_io_tools.__main__:main"
 
