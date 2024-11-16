@@ -13,7 +13,7 @@ defaults:
     shell: "pwsh"
 jobs:
   ruff:
-    runs-on: "ubuntu-22.04"
+    runs-on: "ubuntu-24.04"
     steps:
       - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4.1.1
         with:
@@ -24,7 +24,7 @@ jobs:
       - run: "scripts/Sync-Py.ps1"
       - run: "ruff check --no-fix --output-format github ."
   fawltydeps:
-    runs-on: "ubuntu-22.04"
+    runs-on: "ubuntu-24.04"
     steps:
       - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4.1.1
         with:
@@ -35,7 +35,7 @@ jobs:
       - run: "scripts/Sync-Py.ps1"
       - run: "fawltydeps"
   pyright:
-    runs-on: "ubuntu-22.04"
+    runs-on: "ubuntu-24.04"
     steps:
       - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4.1.1
         with:
@@ -85,7 +85,7 @@ jobs:
       - "fawltydeps"
       - "pyright"
       - "test"
-    runs-on: "ubuntu-22.04"
+    runs-on: "ubuntu-24.04"
     steps:
       - uses: "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11" # v4.1.1
         with:

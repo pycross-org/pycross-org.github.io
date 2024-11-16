@@ -7,7 +7,7 @@ defaults:
     shell: "pwsh"
 jobs:
   release:
-    runs-on: "ubuntu-22.04"
+    runs-on: "ubuntu-24.04"
     steps:
       - uses: "dropseed/changerelease@3b121c9e98fa055f59a32b023cb4fd2325f4d9dc" # v1.6.0
         with:
